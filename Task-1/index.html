@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .section{
+            width: 100%;
+            min-height: min-content;
+        }
+        nav{
+            background-color: rgb(229, 228, 228);
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        li{
+            list-style-type: none;
+        }
+        li:hover{
+            text-decoration: underline;
+        }
+        a{
+            text-decoration: none;
+            padding: 20px;
+            font-size: 20px;
+            color: black;
+        }
+        a:hover{
+            color: blue;
+            font-size: 21px;
+        }
+        .container{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            margin-right: 100px;
+            margin-top: 150px;
+            font-size: 28px;
+        }
+        .main{
+            margin-top: 0%;
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+
+        }
+        .profile{
+            display: flex;
+            height: 300px;
+            width: 300px;
+            margin-left: 100px;
+            margin-top: 30px;
+            
+
+        }
+        .red{
+            color: red;
+        }
+        .pdf{
+            padding: 6px;
+            background-color: green;
+            border-radius: 20px;
+            border: 1px solid green;
+            color: white;
+        }
+        .pdf:hover{
+            color: white;
+        }
+        .skill{
+            padding: 4%;
+        }
+        .box{
+            float: left;
+            justify-content: center;
+            border: 1px solid grey;
+            width: 400px;
+            height: 220px;
+            padding: 20px;
+            margin-left: 2%;
+            box-shadow: 0 0 10px ;
+            border-radius: 10px;
+            text-align: center;
+        }
+        ol li img{
+            justify-content: center;
+        }
+        .box1{
+            float: left;
+            justify-content: center;
+            border: 1px solid grey;
+            width: 500px;
+            height: 210px;
+            padding: 20px;
+            margin-left: 10%;
+            box-shadow: 0 0 10px ;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .blue{
+            color: blue;
+        }
+        .blue:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .contactp{
+            text-align: center;
+            font-size: 20px;
+        }
+        form{
+            margin-left: 40%;
+        }
+        label{
+            font-size: 20px;
+        }
+        input{
+            padding: 9px;
+            width: 50%;
+        }
+        .send{
+            background-color: green;
+        }
+        footer{
+            background-color: rgb(229, 228, 228);
+            display: flex;
+        }
+        .social{
+            margin-left: 40%;
+        }
+        .follow{
+            margin-left: 10%;
+        }
+        .last{
+margin-left: 45%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+<section class="main" id="home">
+    <div class="container">
+        <p>I am</p>
+        <h1>PARAS <span class="red">JAIN</span></h1>
+        <p>Web Developer</p>
+        
+    </div>
+        <div class="profile"> 
+            <img src="mypic.jpg" alt="profile">
+</div>
+</section>
+<br><br>
+
+<section class="about" id="about">
+    <div class="aboutme" style="text-align: center;">
+    <h1>ABOUT ME</h1>
+    <br>
+    <p>Passionate ICT Engineering student currently pursuing a comprehensive program at Ganpat University, specializing in both 
+        software and hardware components. Eager to apply theoretical knowledge and hands-on experience gained in ICT engineering 
+        to real-world projects and challenges. Dedicated to continuous learning and innovation in the field of Information and 
+        Communication Technology. Open to networking and collaboration opportunities.</p>
+    <br>
+    <a class="pdf" href="Resume.pdf" download>Download Resume</a> 
+</div>
+</section>
+<br><br>
+<section class="skill" id="skill">
+    <div class="skills" style="text-align: center;"> 
+        <h1>SKILLS I KNOWN</h1>
+    </div>
+    <br><br>
+    <div class="box">
+        <h2>FONTEND</h2><br>
+            <img src="https://exlaso.in/static/Languages_Logos/html5.svg" width="30px" height="30px"> HTML
+            <img src="https://exlaso.in/static/Languages_Logos/html5.svg" width="30px" height="30px">CSS<br><br>
+            <img src="https://exlaso.in/static/Languages_Logos/javascript.svg" width="30px" height="30px">JAVASCRIPT
+            <img src="https://exlaso.in/static/Languages_Logos/bootstrap.svg" width="30px" height="30px">BOOTSTRAP<br><br>
+            <img src="https://exlaso.in/static/Languages_Logos/tailwindcss.svg" width="30px" height="30px">TAILWIND CSS
+    </div>
+    <div class="box">
+        <h2>BACKEND</h2><br>
+            <img src="https://exlaso.in/static/Languages_Logos/php.svg" width="40px" height="40px">PHP<br><br>
+            <img src="https://exlaso.in/static/Languages_Logos/mysql.svg" width="40px" height="40px">MYSQL
+    </div>
+    <div class="box">
+        <h2>DEVOPS</h2><br>
+            <img src="https://exlaso.in/static/Languages_Logos/git.svg" width="40px" height="40px">GIT<br><br>
+            <img src="https://exlaso.in/static/Languages_Logos/github.svg" width="40px" height="40px">GITHUB
+    </div>
+</section>
+<br><br><br><br><br><br><br><br><br><br><br>
+<section class="project" id="project">
+    <div class="projects" style="text-align: center;"> 
+        <h1>PROJECTS</h1>
+    </div>
+    <br><br>
+    <div class="box1">
+        <h3>Alcohol & Sleep Detector<\h3><br>
+        <p>Developing an alcohol and sleep detector project aims to enhance safety by alerting 
+            users to their impairment levels before bedtime, 
+            promoting responsible habits for a good night's rest.</p>   
+    </div>
+    <div class="box1">
+        <h3>Human Health Monitoring System </h3><br>
+        <p>The Human Health Monitoring System project leverages wearable sensors 
+            and data analytics for real-time health tracking, enabling proactive 
+            health management and early detection of issues.</p>
+    </div>
+</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<section class="contact"id="contact">
+    <div class="projects" style="text-align: center;"> 
+        <h1>CONTACT ME</h1><br>
+        <P class="contactp">Is there something on your mind you'd like to talk about?
+            <br> Whether it's related to work or just a casual conversation, I am here and ready to listen.<br> 
+            Please don't hesitate to reach out to me at any time. 🙋‍♂️.<br>
+                Email: parasjainpj268@gmail.com <br>Phone: +91 9667632738</P>
+                <br><br>
+            </div>
+        <form>
+            <label>Full Name</label><br>
+            <input type="text" placeholder="Enter your name" required><br><br>
+            <label>Email</label><br>
+            <input type="email" placeholder="Enter your email" required><br><br>
+            <label>Contact Number</label><br>
+            <input type="number" placeholder="Enter your number" required><br><br>
+            <label>Message</label><br>
+            <textarea cols="65" rows="5" placeholder="Enter your message" required></textarea><br>
+            <input class="send" type="submit" value="Send">
+        </form>
+</section>
+<br><br><br>
+<footer>
+    <div class="social"><br>
+        <h3>Quick Links</h3><br>
+        <a class="foot" href="#home">Home</a><br>
+        <a class="foot" href="#about">About</a><br>
+        <a class="foot" href="#skill">Skills</a><br>
+        <a class="foot" href="#project">Projects</a><br>
+</div>
+<div class="follow"><br>
+    <h3>Follow Us</h3><br>
+    <a class="foot" href="">Instagram</a><br>
+    <a class="foot" href="">Facebook</a><br>
+    <a class="foot" href="">LinkedIn</a><br>
+    <a class="foot" href="">Github</a><br>
+</div>
+</footer>
+<br>
+<footer>
+    <p class="last">@copyright || @2024 || @privacy policy</p>
+</footer>
+
+
+</body>
+</html>
